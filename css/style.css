@@ -1,0 +1,85 @@
+/* ====== Login & Register Custom Styles ====== */
+
+body {
+  background: url('../img/cook_01.jpg') no-repeat center center fixed;
+  background-size: cover;
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+}
+
+.login-container, .register-container {
+  max-width: 400px;
+  margin: 80px auto;
+  background: rgba(255, 255, 255, 0.95);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+}
+
+.login-container h2, 
+.register-container h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-family: 'Spectral', serif;
+  font-weight: 600;
+  color: #e67e22;
+}
+
+.form-control {
+  border-radius: 6px;
+  padding: 12px;
+  margin-bottom: 18px;
+  border: 1px solid #ddd;
+  transition: all 0.3s ease;
+}
+
+.form-control:focus {
+  border-color: #e67e22;
+  box-shadow: 0 0 6px rgba(230, 126, 34, 0.4);
+}
+
+.btn-custom {
+  background: #e67e22;
+  color: #fff;
+  padding: 12px;
+  width: 100%;
+  border-radius: 6px;
+  border: none;
+  font-weight: 500;
+  transition: background 0.3s ease;
+}
+
+.btn-custom:hover {
+  background: #cf711f;
+}
+
+.text-center a {
+  color: #e67e22;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.text-center a:hover {
+  text-decoration: underline;
+}
+
+/* Success & Error messages */
+.error-message {
+  background: #ffe5e5;
+  color: #d9534f;
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  text-align: center;
+  display: none;
+}
+
+.success-message {
+  background: #e5f9e5;
+  color: #28a745;
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  text-align: center;
+  display: none;
+}
